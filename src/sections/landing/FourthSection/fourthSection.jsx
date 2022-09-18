@@ -4,17 +4,17 @@ import './fourthSection.css'
 const fourthSection = () => {
   return (
     <div>
-     <section className="section5">
-      <section className="section5-1">
-        <article className="sub-sec5">
+     <section className="section4">
+      <section className="section4-1">
+        <article className="sub-sec4">
           <h3>Powering the growth of 100+ business & retailers in Indonesia.</h3>
           <p className="from">From single store, startups, to large multi-store brands.</p>
         </article>
-        <article className="sub-sec51">
+        <article className="sub-sec41">
           <div className="stars">
             <img src="/asset/quote.png" alt="quote"/>
             <img src="/asset/star.png" alt="star"/>
-            <img src="/asset/star.png" alt=""/><img src="/asset/star.png" alt=""/><img src="/asset/star.png" alt=""/><img src="/asset/star.png" alt=""/>
+            <img src="/asset/star.png" alt=""/><img src="/asset/star.png" alt="star"/><img src="/asset/star.png" alt=""/><img src="/asset/star.png" alt="star"/>
           </div>
           <div className="review">
             <p>
@@ -78,12 +78,11 @@ const fourthSection = () => {
               <span class="dot" onclick="currentSlide(3)"></span>
               <span className="dot" onclick="currentSlide(3)"></span>
             </div>
-          </div>
         </article>
       </section>
-      <section className="sub-section5">
+      <section className="sub-section4">
         <article class="sub-sub">
-          <section className="sub51">
+          <section className="sub41">
             <p class="gr">
               Grow your brand presence on social media
             </p>
@@ -103,11 +102,12 @@ const fourthSection = () => {
               </div>
             </div>
           </section>
-          <section class="sub52-btnc">
-            <button className="sub52-btn">Get your trial now</button>
+          <section class="sub42-btnc">
+            <button className="sub42-btn">Get your trial now</button>
           </section>
         </article>
       </section>
+    </section>
     </div>
   )
 }
