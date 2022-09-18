@@ -3,7 +3,7 @@ import './footer.css'
 const footer = () => {
   return (
    <div>
-        <!-- FOOTER SECTION -->
+    {/* FOOTER SECTION */}
     <footer>
       <section className="footer1">
 
@@ -26,37 +26,37 @@ const footer = () => {
   
         </article>
         <article className="foot">
-          <a className="foote" href="#">Product</a>
-          <a className="fot" href="#">LandingPage</a>
-          <a className="fote" href="#">Feature</a>
-          <a className="fote" href="#">Documentation</a>
-          <a className="fote" href="#">Referral Program</a>
-          <a className="fote" href="#">Pricing</a>
+          <a className="foote" href=".#">Product</a>
+          <a className="fot" href=".#">LandingPage</a>
+          <a className="fote" href=".#">Feature</a>
+          <a className="fote" href=".#">Documentation</a>
+          <a className="fote" href=".#">Referral Program</a>
+          <a className="fote" href=".#">Pricing</a>
   
         </article>
         <article className="foot">
-          <a className="foote" href="#">Services</a>
-          <a className="fote" href="#">Documentation</a>
-            <a className="fote" href="#">Design</a>
-            <a className="fote" href="#">Themes</a>
-            <a className="fote" href="#">Ilustration</a>
+          <a className="foote" href=".#">Services</a>
+          <a className="fote" href=".#">Documentation</a>
+            <a className="fote" href=".#">Design</a>
+            <a className="fote" href=".#">Themes</a>
+            <a className="fote" href=".#">Ilustration</a>
           
-            <a className="fote" href="#">UI Kits</a>
+            <a className="fote" href=".#">UI Kits</a>
   
         </article>
         <article className="foot">
-          <a className="foote" href="#">Company</a>
-          <a className="fot" href="#">About</a>
-          <a className="fote" href="#">Terms</a>
-            <a className="fote" href="#">Privacy Policy</a>
-            <a className="fote" href="#">Careers</a>
+          <a className="foote" href=".#">Company</a>
+          <a className="fot" href=".#">About</a>
+          <a className="fote" href=".#">Terms</a>
+            <a className="fote" href=".#">Privacy Policy</a>
+            <a className="fote" href=".#">Careers</a>
   
         </article>
         <article className="foot">
-          <a className="foote" href="#">More</a>
-          <a className="fot" href="#">Documentation</a>
-            <a className="fote" href="#">Licence</a>
-            <a className="fote" href="#">Change Log</a>
+          <a className="foote" href=".#">More</a>
+          <a className="fot" href=".#">Documentation</a>
+            <a className="fote" href=".#">Licence</a>
+            <a className="fote" href=".#">Change Log</a>
       
   
         </article>
@@ -64,7 +64,7 @@ const footer = () => {
 
       <section className="footer2">
           <img src="/asset/Heart.svg" alt="Heart">
-          <p>Copyright &copy 2021. Crafted with love.</p>
+          <p>Copyright &copy; 2021. Crafted with love.</p>
       </section>
     </footer>
    </div>

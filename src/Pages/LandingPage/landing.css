@@ -1,93 +1,60 @@
-.hero-circle{
- background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
- height: 860px;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-header{
- display: flex;
- justify-content: space-around;
- align-items: center;
- padding: 3rem 0rem;
- align-items: center;
-}
-.hamburger {
- display: none;
- color: #fff;
- font-size: 50px;
- font-weight: bolder;
-position: absolute;
-right: -50px;
-cursor: pointer;
-}
-.close{
- display: none;
- font-size: 50px;
- font-weight: bolder;
- color: #fff;
- cursor: pointer;
-}
-
-.navBar{
-  display: flex;
-  align-items: center;
-}
-
-.menu {
- display: flex;
- align-items: center;
- justify-content: space-around;
-}
-
-.menu-list {
-  text-decoration: none;
-  margin-left: 2.5rem;
-}
-
-.menu li{
- list-style-type: none;
-}
-.btn1{
- margin-left: 2rem;
- background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
-border-radius: 4px;
-padding: 0.7rem;
-border: none;
-width: 95px;
-height: 38px;
-color: #fff;
-}
-
-.landing-menu{
- display: none;
-}
-.sub-pages{
-display: none;
-}
-.dropdown{
- color: gold;
- text-decoration: none;
- margin-left: 2.5rem;
- display: flex;
- flex-direction: column;
- list-style-type: none;
- margin-top: 10px;
- color: gold;
- position: absolute;
-}
-
-.sub-hero-circle{
-  display: flex;
+ /* .section4{
+  background-color: rgba(239, 251, 255, 1)
+ }
+ .section4 h2{
+  color: rgba(3, 77, 130, 1);
+ font-size: 36px;
+ font-weight: 700px;
+ line-height: 52px;
+ padding-top: 80px;
+ text-align: center;
+ }
+ 
+ .section4 p{
+  color: rgba(142, 169, 193, 1);
+ font-size: 16px;
+ font-weight: 400px;
+ line-height: 32px;
+ text-align: center;
+ justify-content: center;
+ margin-top: 24px;
+ }
+ 
+ .flexx{
+  display: flex ;
   justify-content: space-between;
-  /* padding-left: 140px; */
+  flex-wrap: wrap;
+  padding-left: 140px;
+  margin-top: 56px;
+  width: 90%;
  }
- .hero-content{
-  color: #fff;
-  
+ .flexxx{
+  width: 259px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 28px 33px 77px 28px;
+  margin-bottom: 80px;
  }
- .hero-content h1{
-  font-family: DM Sans;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 76px;
-  width: 350px;
-  margin-top: 180px;
+ .flex-tit{
+  color: rgba(3, 77, 130, 1);
+ font-size: 20px;
+ font-weight: 700px;
+ line-height: 32px;
+ 
  }
+ .flexxx .flex-p{
+  color: rgba(142, 169, 193, 1);
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 24px;
+ text-align: left;
+ 
+ } */
+ 
+ 

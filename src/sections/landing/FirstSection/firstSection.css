@@ -1,0 +1,74 @@
+/* *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+} */
+.patners{
+ display: flex;
+ margin-top: 131px;
+ justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+}
+.patners2{
+ display: flex;
+ margin-top: 300px;
+ gap: 192px;
+ position: absolute;
+}
+.parabolic{
+ position:relative;
+ top: 80px;
+ height: 300px;
+}
+.phoneBox{
+ position: absolute;
+ top: 0px;
+}
+/* .phone-1{
+ margin-top: 75px;
+border-radius: 0px;
+width: 494px;
+height: 550.85px;
+position: absolute;
+} */
+.phone-2{
+ position:absolute;
+ left: 230px;
+ margin-top: 10px;
+
+}
+
+.patners2-content h3{
+ color: rgba(3, 77, 130, 1);
+ margin-top: 200px;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+max-width: 390px;
+text-align: left;
+}
+
+.patners2-content p{
+margin-top: 24px;
+color: rgba(144, 163, 180, 1);
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+max-width: 485px;
+text-align: left;
+}
+.patners2-content .ll{
+ color: rgba(4, 170, 221, 1);
+font-size: 16px;
+font-weight: 700;
+color: #04AADD;
+text-decoration: none;
+ /* justify-content: left; */
+ align-items: baseline;
+}
+.patners2-content .ll:hover{
+ text-decoration: underline;
+ color: gold;
+}

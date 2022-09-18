@@ -1,0 +1,154 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.hero-circle{
+ background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
+ height: 860px;
+}
+header{
+ display: flex;
+ /* justify-content: space-around; */
+ justify-content: space-between;
+ align-items: center;
+ padding: 2rem 8.75rem;
+ align-items: center;
+}
+.hamburger {
+ display: none;
+ color: #fff;
+ font-size: 50px;
+ font-weight: bolder;
+position: absolute;
+right: -50px;
+cursor: pointer;
+}
+.close{
+ display: none;
+ font-size: 50px;
+ font-weight: bolder;
+ color: #fff;
+ cursor: pointer;
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.menu-list {
+  text-decoration: none;
+  margin-left: 2.5rem;
+}
+
+.menu li{
+ list-style-type: none;
+}
+.btn1{
+ margin-left: 2rem;
+ background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
+border-radius: 4px;
+padding: 0.7rem;
+border: none;
+width: 95px;
+height: 38px;
+color: #fff;
+}
+
+.landing-menu{
+ display: none;
+}
+.sub-pages{
+display: none;
+}
+.dropdown{
+ color: gold;
+ text-decoration: none;
+ margin-left: 2.5rem;
+ display: flex;
+ flex-direction: column;
+ list-style-type: none;
+ margin-top: 10px;
+ color: gold;
+ position: absolute;
+}
+
+.sub-hero-circle{
+  display: flex;
+  /* justify-content: space-between; */
+  /* gap: 10px; */
+  padding-left: 140px;
+ }
+ .hero-content{
+  color: #fff;
+  /* align-items: flex-start; */
+  
+ }
+ .hero-content h1{
+  font-family: DM Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  width: 550px;
+  /* border: 2px solid gold; */
+  margin-top: 180px;
+  text-align: left;
+ }
+ .vector{
+  position: relative;
+  left: -185px;
+  top: -25px;
+ }
+ .hero-content .ehya{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+ width: 440px;
+ text-align: left;
+ }
+ .fl{
+  margin-top: 32px;
+  display:flex;
+  align-items: center;
+  gap: 42px;
+  margin-bottom: 173px;
+ }
+ .btn-fl{
+  width: 197px;
+  height: 57px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  color: rgba(0, 168, 219, 1);
+ font-size: 16px;
+ font-weight: 500px;
+ }
+
+ .col{
+  text-decoration: none;
+  color: white;
+ }
+ .col:hover{
+  text-decoration: underline;
+  color: gold;
+ }
+
+ .heroOverview{
+  margin-top: 80px;
+  position: absolute;
+  right: 0px;
+  
+ }
+
+ .heroOverviewShape{
+  position: relative;
+  left: 150px;
+  top:100px
+ }
