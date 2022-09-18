@@ -1,5 +1,12 @@
 import React from 'react'
 import './fourthSection.css'
+import Quote from '../../../asset/quote.png'
+import Star from '../../../asset/star.png'
+import SmallImage1 from '../../../asset/smallImage1.png'
+import SmallImage2 from '../../../asset/smallImage2.png'
+import SmallImage3 from '../../../asset/smallImage3.png'
+import SmallImage4 from '../../../asset/smallImage4.png'
+import SmallImage5 from '../../../asset/smallImage5.png'
 
 const fourthSection = () => {
   return (
@@ -12,9 +19,9 @@ const fourthSection = () => {
         </article>
         <article className="sub-sec41">
           <div className="stars">
-            <img src="/asset/quote.png" alt="quote"/>
-            <img src="/asset/star.png" alt="star"/>
-            <img src="/asset/star.png" alt=""/><img src="/asset/star.png" alt="star"/><img src="/asset/star.png" alt=""/><img src="/asset/star.png" alt="star"/>
+            <img src={Quote} alt="quote"/>
+            <img src={Star} alt="star"/>
+            <img src={Star} alt="star"/><img src={Star} alt="star"/><img src={Star} alt=""/><img src={Star} alt="star"/>
           </div>
           <div className="review">
             <p>
@@ -22,7 +29,7 @@ const fourthSection = () => {
             </p>
           </div>
       
-            <div className="testimonial" >
+            {/* <div className="testimonial" >
 
              Full-width slides quotes
               <div class="mySlides">
@@ -70,14 +77,14 @@ const fourthSection = () => {
             
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
               <a className="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
+            </div> */}
             
-            <div className="dot-container">
+            {/* <div className="dot-container">
               <span class="dot" onclick="currentSlide(1)"></span>
               <span className="dot" onclick="currentSlide(2)"></span>
               <span class="dot" onclick="currentSlide(3)"></span>
               <span className="dot" onclick="currentSlide(3)"></span>
-            </div>
+            </div> */}
         </article>
       </section>
       <section className="sub-section4">
@@ -91,14 +98,14 @@ const fourthSection = () => {
             </p>
             <div className="immg">
               <div class="immmg">
-                <img className="item" src="/asset/Item.png" alt="Item"/>
-                <img class="item1" src="/asset/Item1.png" alt="Item1"/>
-                <img className="item2" src="/asset/Item2.png" alt="Item2"/>
-                <img class="item3" src="/asset/Item3.png" alt="Item3"/>
-                <img className="item4" src="/asset/Item4.png" alt="Item4"/>
+                <img className="smallImage1" src={SmallImage1} alt="smallImage1"/>
+                <img class="smallImage2" src={SmallImage2} alt="smallImage2"/>
+                <img className="smallImage3" src={SmallImage3} alt="smallImage3"/>
+                <img class="smallImage4" src={SmallImage4} alt="smallImage4"/>
+                <img className="smallImage5" src={SmallImage5} alt="smallImage5"/>
               </div>
               <div>
-                <p className="an">and others</p>
+                <a href='.#' className="an">and others</a>
               </div>
             </div>
           </section>
