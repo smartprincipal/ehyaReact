@@ -7,8 +7,9 @@ import Google from '../../../asset/google.svg'
 import Airbnb from '../../../asset/airbnb.svg'
 import Uber from '../../../asset/uber.svg'
 import Parabolic from '../../../asset/parabolic.png'
-import Iphone121 from '../../../asset/iphone12-1.png'
-import Iphone122 from '../../../asset/iphone12-2.png'
+import Phones from '../../../asset/phones.png'
+
+
 const firstSection = () => {
   return (
     <div>
@@ -17,31 +18,17 @@ const firstSection = () => {
 <div className="patners">
   <div className="patners-logo">
     <img src={Slack} alt="Slack" />
-  </div>
-  <div class="patners-logo">
     <img src={Netflix} alt="Netflix" />         
-  </div>
-  <div className="patners-logo">
     <img src={Google} alt="Google" />
-  </div>
-  <div className="patners-logo">
     <img src={Airbnb} alt="Airbnb" />   
-  </div>
-  <div className="patners-logo">
     <img src={Uber} alt="Uber" />
-  </div>
+    </div>
   
 </div>
 <section className="patners2">
   <article className="phone">
-    <div className="parabolic">
-    <img src={Parabolic} alt="parabolic"/>
-    </div>
-    <div className="phoneBox">
-
-    <img className="phone-1"  src={Iphone121} alt="iphone12-1"/>
-    <img className="phone-2" src={Iphone122} alt="iphone12-2"/>
-    </div>
+    <img className='parabolic' src={Parabolic} alt="parabolic"/>
+    <img className="phone1"  src={Phones} alt="iphone12"/>
   </article>
 
   <article className="patners2-content">

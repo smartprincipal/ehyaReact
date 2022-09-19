@@ -1,47 +1,47 @@
-// import './Header.css'
-// import logo from '../Header/logo.svg';
-// const Header = () => {
-//   return (
-//     <div className='header'>
-//       <header>
+import React from 'react'
+import './Header.css'
 
-//      <div className="logo">
-//       <img src={logo} alt="Logo" />
-//      </div>
+const Header = () => {
+  return (
+    <div>
+<header>
 
-//      <div className="hamburger" id="hamburger">
-//    &#9776;
-//   </div>
-//    <div className='close' id="close"> &times; </div>
+<div className="logo">
+ <img src={Logo} alt="Logo" />
+</div>
 
-//      <nav className='navBar'>
-//      <ul className='menu'>
-//       <li><a className='menu-list' href='.#'>Home</a></li>
-//       <li><a className='menu-list' href='.#'>Landings &#129091;</a>
-//       <ul id='sub-landing' className='landing-menu' >
-//          <li><a className='dropdown' href='.#'>Landing1</a></li>
-//          <li><a className='dropdown' href='.#'>Landing2</a></li>
-//          <li><a className='dropdown' href='.#'>Landing3</a></li>
-//          <li><a className='dropdown' href='.#'>Landing4</a></li>
-//        </ul>
-//       </li>
-//       <li><a className='menu-list' href='.#'>Pages &#129091;</a>
-//       <ul id='sub-pages' className='sub-pages'>
-//        <li><a className='dropdown' href='.#'>About Us</a></li>
-//        <li><a className='dropdown' href='.#' >Contact Us</a></li>
-//        <li><a className='dropdown' href='.#'>Direction</a></li>
-//        <li><a className='dropdown' href='.#'>All</a></li>
-//       </ul>
-//       </li>
-//       <li><a className='menu-list' href='.#'>Doc</a></li>
-//       <li><a className='menu-list' href='.#'>Contact Us</a></li>
-//       </ul>
-//       <button className='btn1' type='submit'>Login</button>
-//      </nav>
-//       </header>
+<div className="hamburger" id="hamburger">
+&#9776;
+</div>
+<div className='close' id="close"> &times; </div>
 
-//     </div>
-//   )
-// }
+<nav className='navBar'>
+<ul className='menu'>
+ <li><Link to='.#' className='menu-list'>Home</Link></li>
+ <li><Link to='.#' className='menu-list'>Landings &#129091;</Link>
+ <ul id='sub-landing' className='landing-menu' >
+ <li><Link to='.#' className='dropdown'>Landing1</Link></li>
+  <li><Link to='.#' className='dropdown'>Landing2</Link></li>
+  <li><Link to='.#' className='dropdown'>Landing3</Link></li>
+  <li><Link to='.#' className='dropdown'>Landing4</Link></li>
+  </ul>
+ </li>
+ <li><a className='menu-list'>Pages &#129091;</a>
+ <ul id='sub-pages' className='sub-pages'>
+  <li><Link to='.#' className='dropdown'>About Us</Link></li>
+  <li><Link to='.#' className='dropdown'>Contact Us</Link></li>
+  <li><Link to='.#' className='dropdown'>Direction</Link></li>
+  <li><Link to='.#' className='dropdown'>All</Link></li>
+ </ul>
+ </li>
+ <li><Link to='.#' className='menu-list'>Doc</Link></li>
+ <li><Link to='.#' className='menu-list'>Contact Us</Link></li>
+ </ul>
+ <button className='btn1' type='submit'>Login</button>
+</nav>
+ </header>
+    </div>
+  )
+}
 
-// export default Header
+export default Header

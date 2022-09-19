@@ -1,12 +1,9 @@
-/* *{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-} */
+
 .patners{
  display: flex;
  margin-top: 131px;
- justify-content: space-between;
+ justify-content: space-around;
+ /* gap: 100px; */
  margin-left: auto;
  margin-right: auto;
  width: 70%;
@@ -14,30 +11,19 @@
 .patners2{
  display: flex;
  margin-top: 300px;
- gap: 192px;
- position: absolute;
+ /* gap: 302px; */
+ /* position: absolute; */
+ /* margin-left: 140px; */
+}
+.phone1{
+ position: relative;
+ left: -600px;
 }
 .parabolic{
- position:relative;
- top: 80px;
- height: 300px;
-}
-.phoneBox{
- position: absolute;
- top: 0px;
-}
-/* .phone-1{
- margin-top: 75px;
-border-radius: 0px;
-width: 494px;
-height: 550.85px;
-position: absolute;
-} */
-.phone-2{
  position:absolute;
- left: 230px;
- margin-top: 10px;
-
+ top: 400px;
+ left: 140px;
+ /* height: 300px; */
 }
 
 .patners2-content h3{
@@ -66,9 +52,17 @@ font-weight: 700;
 color: #04AADD;
 text-decoration: none;
  /* justify-content: left; */
- align-items: baseline;
+ /* align-items: baseline; */
 }
 .patners2-content .ll:hover{
  text-decoration: underline;
  color: gold;
+}
+@media screen and (max-width: 800px) {
+ .patners{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  
+ }
 }

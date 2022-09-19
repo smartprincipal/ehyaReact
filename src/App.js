@@ -1,11 +1,12 @@
 
 import './App.css';
-import Landing from './Pages/LandingPage/landing'
+// import Landing from './Pages/LandingPage/landing'
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
+
+      {/* <Landing/> */}
       
     </div>
   );

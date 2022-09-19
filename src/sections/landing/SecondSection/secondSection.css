@@ -1,8 +1,8 @@
-/* *{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-} */
+*{
+ margin: 0px;
+ /* padding: 0; */
+ /* box-sizing: border-box; */
+}
 
 .section2{
  display: flex;
@@ -10,8 +10,8 @@
  /* margin-top: 400px; */
  justify-content: space-between;
  margin-bottom: 80px;
- /* position: absolute; */
- top:400px;
+ position: relative;
+ /* top:1400px; */
 }
 .section2 .sch{
  width: 446px;
