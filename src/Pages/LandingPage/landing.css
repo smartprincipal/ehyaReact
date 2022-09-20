@@ -79,7 +79,6 @@
    position: absolute;
    right: 180px;
    top:200px;
-   border: 2px solid red;
   }
 
   .patners-logo{
@@ -258,12 +257,13 @@
    
    }
    .stars{
-    position: relative;
-    left: -150px;
+    position: absolute;
+    /* left: -150px; */
+    margin-bottom: 30px;
    }
    .review{
     margin-left: 40px;
-    margin-top: 14px;
+    margin-top: 44px;
    }
    .review p{
     width: 463px;
@@ -661,7 +661,8 @@
    }
    .stars{
     position: relative;
-    left: -5rem;
+    margin-top: 10px;
+    left: 1rem;
    }
    .review{
     margin-left: 1rem;

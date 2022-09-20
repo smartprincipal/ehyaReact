@@ -39,13 +39,6 @@ import Footer from '../../Components/Footer/footer';
 const Landing = () => {
   return (
     <div>
-     {/* <HeroSection/> */}
-     {/* <FirstSection/> */}
-     {/* <SecondSection/> */}
-     {/* <ThirdSection/> */}
-     {/* <FourthSection/> */}
-     {/* <Footer/> */}
-
      <section className="hero-circle">
       <div className="header">
 

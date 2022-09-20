@@ -19,7 +19,6 @@ const Header = () => {
 
         <nav className='navBar'>
         <ul className='menu'>
-          <li><Link to= "./" className='menu-list'>Home</Link></li>
         <li><a href='./' className='menu-list'>Home</a></li>
         <li><Link to='./' className='menu-list'>Landings &#129091;</Link>
         <ul id='sub-landing' className='landing-menu' >

@@ -1,10 +1,23 @@
 import React from 'react'
-import './contactForm.css'
+import './ContactForm.css'
+import Locate from '../../asset/LocateIcon.png'
+import Telephone from '../../asset/telIcon.png'
+import Message from '../../asset/msgIcon.png'
+import Youtube from '../../asset/Youtube.png'
+import Twitter from '../../asset/Twitter.png'
+import Instagram from '../../asset/Instagram.png'
+import Facebook from '../../asset/Facebook.png'
+import Location from '../../asset/location.png'
+import Dot from '../../asset/dots.png'
+import Blue from '../../asset/blue-design.png'
+import Brown from '../../asset/brown-design.png'
 
-const contactForm = () => {
+const ContactForm = () => {
   return (
     <div>
      <section className="section2-container">
+
+
   <div class="section2">
    <p class="g">Get In Touch</p>
    <article className="first">
@@ -27,22 +40,19 @@ const contactForm = () => {
       
       {/* Submit button */}
       <input className="submit" id="submit" type="submit" value="Send"/>
-     
-    
-    </form>
+     </form>
 
-    </article>
     <article className="second">
      <div className="gg">
       <div className="icon">
-       <img src="/pages/asset/1.png" alt="1"/>
+       <img src={Locate} alt="Location"/>
       </div>
       <div className="cont">
        <p>
        Infomation technologies building, <br /> Victoria Island, Lagos, Nigeria.</p></div>
      </div>
      <div className="gg">
-      <div className="icon"><img src="/pages/asset/tel.png" alt="1"/>
+      <div className="icon"><img src={Telephone} alt="Telephone"/>
       </div>
       <div className="cont">
        <p>
@@ -53,7 +63,7 @@ const contactForm = () => {
      <div className="gg">
 
       <div className="icon">
-       <img src="/pages/asset/msg.png" alt="1"/>
+       <img src={Message} alt="Messsage Icon"/>
       </div>
       <div className="cont">
        <p>hello@info.com.ng</p>
@@ -61,23 +71,28 @@ const contactForm = () => {
      </div>
 
      <div className="socialss">
-     <img src="/pages/asset/Youtube.png" alt="Youtube"/>
-     <img src="/pages/asset/Instagram.png" alt="Instagram"/>
-     <img src="/pages/asset/Facebook.png" alt="Facebook"/>
-     <img src="/pages/asset/Twitter.png" alt="Twitter"/>
+     <img src={Youtube} alt="Youtube"/>
+     <img src={Instagram} alt="Instagram"/>
+     <img src={Facebook} alt="Facebook"/>
+     <img src={Twitter} alt="Twitter"/>
      </div>
-     <img src="/pages/asset/location.png" alt=""/>
-   </section>
-
-   <img className="dots2" src="/pages/asset/dots.png" alt="dots2"/>
-
-   <img className="brown1" src="/pages/asset/brown-design.png" alt="brown-design"/>
+     
+     <img src={Location} alt="Location"/>
   
-   <img className="blue1" src="/pages/asset/blue-design.png" alt="blue-design"/>
+
+   <img className="dots2" src={Dot}alt="dots2"/>
+
+   <img className="brown1" src={Brown} alt="brown-design"/>
+  
+   <img className="blue1" src={Blue} alt="blue-design"/>
+</article>
 
  </section>
+
+ </section>
+
     </div>
   )
 }
 
-export default contactForm
+export default ContactForm

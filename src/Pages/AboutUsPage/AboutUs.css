@@ -4,7 +4,13 @@
  box-sizing: border-box;
 }
 .hero-circle{
- background: linear-gradient(359.45deg, #4A99D3 -24.57%, rgba(74, 153, 211, 0) 76.31%), #FFFFFF;
- height: 609px;
+ background: linear-gradient(-180deg, #4A99D3 -180%, rgba(74, 153, 211, 0) 76.31%), #FFFFFF;
+ /* opacity: 0.2; */
+ height: 509px;
+ /* padding-left: 140px;
+ padding-right: 140px; */
+}
+.header{
+ padding-top: 2rem;
 }
 
