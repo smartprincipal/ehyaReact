@@ -1,10 +1,10 @@
 header{
   display: flex;
-  /* justify-content: space-around; */
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 8.75rem;
   align-items: center;
+  padding-left: 140px;
+  padding-right: 140px;
  }
  .hamburger {
   display: none;
@@ -32,11 +32,13 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
  }
  
  .menu-list {
    text-decoration: none;
    margin-left: 2.5rem;
+   color: #fff;
  }
  
  .menu li{
