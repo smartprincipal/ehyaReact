@@ -142,6 +142,10 @@ margin-bottom: 27px;
 .socialss{
  margin-bottom: 30px;
 }
+.Location{
+ max-width: 100%;
+ height: auto;
+}
 
 .dots2{
  position: relative;
@@ -162,55 +166,22 @@ margin-bottom: 27px;
  top: 680px;
 }
 
-footer{
- background-color: rgba(8, 19, 21, 1);
- 
-}
-.footer1{
- display: flex;
- padding-left: 140px;
- /* gap: 90px; */
- justify-content: space-around;
- width: 95%;
-}
-.foot{
- padding-top: 88px;
- color: rgba(211, 214, 216, 1);
-}
-.foot a{
- display: flex;
- flex-direction: column;
- text-decoration: none;
- color: #fff;
-}
-.foot a:hover{
- text-decoration: underline;
- color: gold;
-}
-.fot1{
- margin-top: 20px;
-font-size: 16px;
-font-weight: 400px;
-line-height: 28px;
-}
-.social-handles{
- margin-top: 32px;
-}
 
 @media screen and (max-width: 768px) {
  .section2-container{
   max-width: 450px;
-  height: 1000px;
- top:-80px;
- /* width: 85%; */
+  height: 950px;
+ top:-300px;
+ }
+ .section2{
+  padding: 0 0.2rem;
  }
  .section2 .g{
   padding-top: 40px;
  }
  .sub-section2{
   display: block;
-  padding-left: 75px;
-  padding-right: 60px;
+  padding: 0 1rem 0 1rem;
  }
  .first p{
  margin-top: 40px;
@@ -219,13 +190,13 @@ line-height: 28px;
  
  }
  .first-name, .email, .text-here{
- width: 300px;
+ width: 290px;
  /* margin-bottom: 24px; */
  
  }
  
- .btt{
-  width: 300px;
+ .submit{
+  width: 290px;
   margin-bottom: 30px;
  }
  .gg{
@@ -240,6 +211,13 @@ margin-left: 35px;
  .socialss{
   margin-bottom: 30px;
   margin-left: 35px;
+ }
+
+ .second{
+  margin-left: -20px;
+ }
+ .Location{
+  margin-left: 10px;
  }
 
  .dots2{

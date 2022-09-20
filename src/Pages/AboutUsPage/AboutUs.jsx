@@ -3,7 +3,6 @@ import ContactForm from '../../Components/ContactForm/ContactForm'
 import Header from '../../Components/Header/Header'
 import './AboutUs.css'
 import Footer from '../../Components/Footer/footer'
-// import Logo from '../../../asset/Logo.svg'
 
 const AboutUs = () => {
   return (
@@ -14,7 +13,10 @@ const AboutUs = () => {
         </div>
       </section>
       <ContactForm/>
+      <div className="footer">
+
       <Footer/>
+      </div>
 
     </div>
   )

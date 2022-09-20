@@ -37,7 +37,7 @@ const Header = () => {
         </ul>
         </li>
         <li><Link to='./' className='menu-list'>Doc</Link></li>
-        <li><Link to='./' className='menu-list'>Contact Us</Link></li>
+        <li><Link to='AboutUs' className='menu-list'>Contact Us</Link></li>
         </ul>
         <button className='btn1' type='submit'>Login</button>
         </nav>

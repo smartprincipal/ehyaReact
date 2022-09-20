@@ -77,7 +77,7 @@ const ContactForm = () => {
      <img src={Twitter} alt="Twitter"/>
      </div>
      
-     <img src={Location} alt="Location"/>
+     <img src={Location} className='Location' alt="Location"/>
   
 
    <img className="dots2" src={Dot}alt="dots2"/>
