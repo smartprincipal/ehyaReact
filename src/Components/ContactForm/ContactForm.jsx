@@ -16,15 +16,13 @@ const ContactForm = () => {
   return (
     <div>
      <section className="section2-container">
-
-
   <div class="section2">
    <p class="g">Get In Touch</p>
-   <article className="first">
-    <p>
+   {/* <article className="first"> */}
+    <p className='leave'>
      Leave us a message
     </p>
-   </article>
+   {/* </article> */}
   </div>
    <section className="sub-section2">
      <form action="" className="form">

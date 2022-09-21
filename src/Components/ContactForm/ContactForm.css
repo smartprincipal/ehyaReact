@@ -35,7 +35,7 @@ z-index: 1;
  padding-right: 60px;
  justify-content: space-between;
 }
-.first p{
+.leave{
  color: #0F001A;
  font-family: Objective;
 font-size: 20px;
@@ -43,6 +43,9 @@ font-weight: 500;
 line-height: 21px;
 margin-top: 50px;
 margin-bottom: 35px;
+position: relative;
+top: 80px;
+left: -650px;
 
 }
 .form{

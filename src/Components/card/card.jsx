@@ -7,6 +7,7 @@ import './card.css'
 // import cardImage4 from "../../asset/cardImage4.png"
 
 const card = (props) => {
+   // const {Img, head, content} = props
   return (
 
      <div className="card">

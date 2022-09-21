@@ -1,5 +1,5 @@
 
-import './landing.css'
+import './Landing.css'
 import Header from '../../Components/Header/Header'
 import Vector from '../../asset/Vector.png'
 import HeroOverview from '../../asset/overview.png'
@@ -26,6 +26,7 @@ import SmallImage3 from '../../asset/smallImage3.png'
 import SmallImage4 from '../../asset/smallImage4.png'
 import SmallImage5 from '../../asset/smallImage5.png'
 import Footer from '../../Components/Footer/footer';
+import { useState } from 'react'
 // import HeroSection from '../../sections/landing/HeroSection/heroSection';
 // import { Form } from 'react-router-dom';
 // import FirstSection from '../../sections/landing/FirstSection/firstSection';
@@ -37,6 +38,12 @@ import Footer from '../../Components/Footer/footer';
 
 
 const Landing = () => {
+  const [data] = useState([
+    {id: 0, content: `Follow a hashtag growth total posts, videos and images.`, Img: cardImage1, head:`Hashtag Growth`},
+    {id: 1, content: `Identify the most influential people posting with your hashtag.`, Img: cardImage2, head:`Influencers by Hashtag`},
+    {id: 2, content: `See the most influential posts on hashtag you are following on.`, Img: cardImage3, head:`Most Influential Post`},
+    {id: 3, content: `Visualize where people are posting using your hashtag made.`, Img: cardImage4, head:`Hashtag Location`}
+  ])
   return (
     <div>
      <section className="hero-circle">
@@ -146,10 +153,14 @@ const Landing = () => {
       </p>
     </article>
     <div className="cardContainer">
-      <Card content='Follow a hashtag growth total posts, videos and images.' head='Hashtag Growth' Img = {cardImage1}/>
+      {data.map((item) => (
+        <Card content={item.content} head={item.head} Img={item.Img} key={item.id}/>
+      ))
+      }
+       {/* <Card content='Follow a hashtag growth total posts, videos and images.' head='Hashtag Growth' Img = {cardImage1}/>
       <Card content='Identify the most influential people posting with your hashtag.' head='Influencers by Hashtag' Img = {cardImage2}/>
       <Card content='See the most influential posts on hashtag you are following on.' head='Most Influential Post' Img = {cardImage3}/>
-      <Card content='Visualize where people are posting using your hashtag made.' head='Hashtag Location' Img = {cardImage4}/>
+      <Card content='Visualize where people are posting using your hashtag made.' head='Hashtag Location' Img = {cardImage4}/> */}
       </div>
       </section>
 
