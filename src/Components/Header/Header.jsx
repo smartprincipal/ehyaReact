@@ -103,7 +103,7 @@ const handleToggle = () => {
         <li><Link to='./' className='menu-list'>Doc</Link></li>
         <li><Link to='/AboutUs' className='menu-list'>Contact Us</Link></li>
 
-        <button className='btn1' type='submit'>Login</button>
+        <button className='btn1' type='submit'>Loginn</button>
     
     
         </ul>
