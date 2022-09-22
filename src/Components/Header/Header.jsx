@@ -54,9 +54,15 @@ const Header = () => {
 
 const [toggle, setToggle] = useState(false)
 
+// const [onmouseover, setOnMouseOver] = useState(false)
+
 const handleToggle = () => {
   return setToggle(prevToggle =>!prevToggle)
 }
+
+// const handleMouse =() => {
+//   return setOnMouseOver(prevMouse => !prevMouse)
+// }
 
 
 
@@ -79,7 +85,7 @@ const handleToggle = () => {
         {/* // {toggle ? 'menu': 'deactive'} */}
         <li><Link to='/' className='menu-list'>Home</Link></li>
         <li><Link to='./' className='menu-list'>Landings &#129091;</Link>
-        <ul id='sub-landing' className='landing-menu' >
+        <ul id='sub-landing'>
         <li><Link to='./' className='dropdown'>Landing1</Link></li>
           <li><Link to='./' className='dropdown'>Landing2</Link></li>
           <li><Link to='./' className='dropdown'>Landing3</Link></li>
