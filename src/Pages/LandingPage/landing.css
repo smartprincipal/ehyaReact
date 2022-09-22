@@ -222,7 +222,6 @@
   .cardContainer{
    display: flex;
    flex-wrap: wrap;
-   text-align: left;
    justify-content: space-around;
    padding-left: 140px;
    margin-top: 56px;
@@ -496,9 +495,9 @@
   width: 280px;
  }
  .patners2-content{
-  margin-top: 30px;
-  padding-left: 2rem;
- padding-right: 2rem; 
+  margin-top: -72px;
+  padding-left: 1rem;
+ padding-right: 0rem; 
 
  }
 
@@ -513,35 +512,44 @@
 
  .section2{
   flex-direction: column;
-  gap: 50px;
+  /* gap: 50px; */
   margin-top: 50px;
   padding-left: 2rem;
   /* padding-right: 3rem; */
+  margin-bottom: 40px;
+ }
+ .tt{
+  margin-left: 1rem;
  }
  .section2 .sch{
   text-align: center;
   width: 280px;
+  
  }
  .section2 .pub{
   max-width: 280px;
- }
+}
  .tt-image img{
-  margin-left: -20px;
+  margin-left: 0px;
+  margin-top: 30px;
  }
  .section3{
-  padding-left: 2rem;
+  padding-left: 1rem;
  }
  .section3 h2 {
   padding-top: 30px;
 }
 .section3 p {
   text-align: left;
-  justify-content: center;
+  /* justify-content: center; */
   margin-top: 24px;
+  max-width: 280px;
 }
 .cardContainer{
-  padding-left: 1rem;
+  padding-left: 0rem;
   margin-top: 36px;
+  width: 100%;
+  text-align: center;
  }
  .section4{
   padding-left: 1rem;
@@ -552,6 +560,10 @@
   flex-direction: column;
   margin-top: 40px;
   margin-bottom: 100px;
+  max-width: 280px;
+ }
+ .sub-sec4{
+  max-width: 280px;
  }
  .sub-sec4 h3{
   width: 280px;

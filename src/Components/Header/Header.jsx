@@ -4,53 +4,6 @@ import Logo from '../../asset/Logo.svg'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
-  // function eventHandler(){
-  //   const menuIcon = document.querySelector(".hamburger");
-  //   const navBar = document.querySelector(".menu");
-  //   const times = document.getElementById("close");
-    
-  //   menuIcon.addEventListener("click", () => {
-  //       menuIcon.classList.toggle("deactive");
-  //     navBar.classList.toggle("show-menu");
-  //     times.classList.toggle("show-close");
-  //   });
-    
-  // }
-  // function eventClose() {
-  //   const menuIcon = document.querySelector(".hamburger");
-  //   const navBar = document.querySelector(".menu");
-  //   const times = document.getElementById("close");
-    
-  //   times.addEventListener("click", () => {
-  //     navBar.classList.toggle("show-menu");
-  //     menuIcon.classList.toggle("deactive")
-  //     times.classList.toggle("show-close");
-      
-  //   });
-    
-  // }
-  // function eventLanding(){
-  //   let landings = document.getElementById("landings");
-  //   let subLanding = document.getElementById("sub-landing");
-    
-  //   landings.addEventListener("click", () => {
-  //     subLanding.classList.toggle("landing-menu");
-  //     subLanding.classList.toggle("sub-landing");
-  //   });
-    
-    
-  // }
-  
-  // function eventPages(){
-    
-  //   let pages = document.getElementById("pages");
-  //   let subPages = document.getElementById("sub-pages");
-    
-  //   pages.addEventListener("click", () => {
-  //     subPages.classList.toggle("pages-menu");
-  //     subPages.classList.toggle("sub-pages");
-  //   });
-  // }
 
 const [toggle, setToggle] = useState(false)
 
@@ -103,7 +56,7 @@ const handleToggle = () => {
         <li><Link to='./' className='menu-list'>Doc</Link></li>
         <li><Link to='/AboutUs' className='menu-list'>Contact Us</Link></li>
 
-        <button className='btn1' type='submit'>Loginn</button>
+        <button className='btn1' type='submit'>Login</button>
     
     
         </ul>

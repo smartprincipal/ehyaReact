@@ -12,7 +12,7 @@ const card = (props) => {
 
      <div className="card">
 
-        <img src={props.Img} alt=''/>
+        <img className='cardImg' src={props.Img} alt=''/>
         <h4 className='cardHead'>{props.head}</h4>
         <p className="cardContent">{props.content}</p>
      </div>
