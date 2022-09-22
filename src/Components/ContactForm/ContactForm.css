@@ -1,4 +1,4 @@
-.section2-container{
+.section1-container{
  max-width: 950px;
  height: 638px;
  margin-left: auto;
@@ -10,17 +10,9 @@ position: relative;
 top:-270px;
 z-index: 1;
 }
-.containerFlex{
- display: flex;
-}
-
-.section2{
- padding-left: 60px;
- padding-right: 60px;
-}
-.section2 .g{
+.g{
  padding-top: 60px;
- width: 130px;
+ width: 140px;
  margin-left: auto;
  margin-right: auto;
  color: rgba(74, 153, 211, 1);
@@ -29,12 +21,9 @@ z-index: 1;
  font-weight: 700px;
  border-bottom: 2px solid rgba(74, 153, 211, 1);
 }
-.sub-section2{
+/* .containerFlex{
  display: flex;
- padding-left: 60px;
- padding-right: 60px;
- justify-content: space-between;
-}
+} */
 .leave{
  color: #0F001A;
  font-family: Objective;
@@ -43,16 +32,23 @@ font-weight: 500;
 line-height: 21px;
 margin-top: 50px;
 margin-bottom: 35px;
-position: relative;
-top: 80px;
-left: -650px;
+padding-left: 60px;
+/* position: relative; */
+/* top: 80px; */
+/* left: -650px; */
 
 }
-.form{
- display: flex;
- flex-direction: column;
- position: relative;
 
+/* .section1{
+ padding-left: 60px;
+ padding-right: 60px;
+} */
+
+.sub-section1{
+ display: flex;
+ padding-left: 60px;
+ padding-right: 60px;
+ /* justify-content: space-between; */
 }
 .first-name-label{
  background-color: white;
@@ -127,7 +123,6 @@ line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
 color: #ffffff;
-
 }
 .gg{
  display:flex;
@@ -138,21 +133,21 @@ margin-bottom: 27px;
  line-height: 22px;
  color: #0F001A;
 }
-
-.socialss img{
- margin-right: 20px;
-}
 .socialss{
- margin-bottom: 30px;
+ display: flex;
+ gap: 20px;
 }
 .Location{
- max-width: 100%;
- height: auto;
+ margin-top: 30px;
+ /* width: 100%; */
+ /* height: auto; */
 }
 
 .dots2{
- position: relative;
- left: -50px;
+ position: absolute;
+ right: -60px;
+ top: -80px;
+ /* z-index: -2; */
  height: 100px;
 }
 
@@ -171,18 +166,19 @@ margin-bottom: 27px;
 
 
 @media screen and (max-width: 768px) {
- .section2-container{
-  max-width: 450px;
-  height: 950px;
- top:-300px;
+ .section1-container{
+  max-width: 320px;
+  height: 930px;
+ top:-350px;
+ border: 2px solid red;
  }
- .section2{
+ .section1{
   padding: 0 0.2rem;
  }
- .section2 .g{
+ .g{
   padding-top: 40px;
  }
- .sub-section2{
+ .sub-section1{
   display: block;
   padding: 0 1rem 0 1rem;
  }
@@ -200,7 +196,8 @@ margin-bottom: 27px;
  
  .submit{
   width: 290px;
-  margin-bottom: 30px;
+  margin-bottom: 7px;
+  margin-top: 20px;
  }
  .gg{
  margin-top: 20px;
@@ -221,6 +218,8 @@ margin-left: 35px;
  }
  .Location{
   margin-left: 10px;
+  margin-top: 0px;
+  width: 100%;
  }
 
  .dots2{
