@@ -24,7 +24,8 @@ const handleToggle = () => {
         <header>
 
         <div className="logo">
-        <img src={Logo} alt="Logo" />
+          <Link to='/'><img src={Logo} alt="Logo" /></Link>
+        
         </div>
 
         <div className="hamburger" id="hamburger" onClick={handleToggle}>
