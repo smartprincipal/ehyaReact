@@ -5,22 +5,16 @@
 }
 .hero-circles{
  background: linear-gradient(-180deg, #4A99D3 -180%, rgba(74, 153, 211, 0) 76.31%), #FFFFFF;
- /* opacity: 0.2; */
  height: 509px;
- /* padding-left: 140px;
- padding-right: 140px; */
 }
 .header{
  padding-top: 2rem;
 }
 .form{
  position: relative;
- /* top: -200px; */
 }
 
 .footer{
  position: relative;
- /* bottom: 0; */
- /* top: -100px; */
 }
 

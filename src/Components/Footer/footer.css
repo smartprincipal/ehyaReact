@@ -6,7 +6,6 @@ footer{
  display: flex;
  flex-wrap: wrap;
  padding-left: 140px;
- /* gap: 90px; */
  justify-content: space-around;
  width: 95%;
 }

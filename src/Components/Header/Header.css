@@ -65,12 +65,9 @@ header{
  .dropdown{
   color: gold;
   text-decoration: none;
-  /* margin-left: 2.5rem; */
   display: flex;
-  /* flex-direction: column; */
   list-style-type: none;
   margin-top: 10px;
-  /* color: gold; */
   position: absolute;
   display: none;
  }
@@ -92,25 +89,15 @@ header{
    right: 30px;
    top: 25px;
    cursor: pointer;
-   /* z-index: 1; */
   }
   .close{
-   /* z-index: 1; */
-   /* display: none; */
    position: absolute;
   top: 25px;
   right: 30px;
   }
-  .navbar{
-   /* background-color: transparent; */
-   
-   /* top: 0px; */
-   /* text-align: right; */
-  }
   .menu-drop{
    display: block;
     left: 0px;
-   /* position: fixed; */
    justify-content: center;
    width: 100%;
    background-color: #262626;
@@ -124,10 +111,6 @@ header{
   .menu{
     display: none;
   }
-  /* .btn1{
-    display: block;
-    margin-top: 0px;
-  } */
 
   .menu-drop li{
     list-style-type: none;
@@ -147,7 +130,6 @@ header{
   .nav-links{
    padding-right: 0px;
    color: #eee;
-   /* font-weight: 300px; */
    letter-spacing: 1px;
    text-transform: uppercase;
    position: relative;
@@ -189,8 +171,5 @@ header{
  }
  .deactive {
   display: none;
- }
- .landing-menu{
-  display: ;
  }
 }

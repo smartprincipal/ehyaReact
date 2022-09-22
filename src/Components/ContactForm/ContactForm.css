@@ -21,9 +21,6 @@ z-index: 1;
  font-weight: 700px;
  border-bottom: 2px solid rgba(74, 153, 211, 1);
 }
-/* .containerFlex{
- display: flex;
-} */
 .leave{
  color: #0F001A;
  font-family: Objective;
@@ -33,22 +30,12 @@ line-height: 21px;
 margin-top: 50px;
 margin-bottom: 35px;
 padding-left: 60px;
-/* position: relative; */
-/* top: 80px; */
-/* left: -650px; */
-
 }
-
-/* .section1{
- padding-left: 60px;
- padding-right: 60px;
-} */
 
 .sub-section1{
  display: flex;
  padding-left: 60px;
  padding-right: 60px;
- /* justify-content: space-between; */
 }
 .first-name-label{
  background-color: white;
@@ -139,15 +126,12 @@ margin-bottom: 27px;
 }
 .Location{
  margin-top: 30px;
- /* width: 100%; */
- /* height: auto; */
 }
 
 .dots2{
  position: absolute;
  right: -60px;
  top: -80px;
- /* z-index: -2; */
  height: 100px;
 }
 
@@ -190,7 +174,6 @@ margin-bottom: 27px;
  }
  .first-name, .email, .text-here{
  width: 290px;
- /* margin-bottom: 24px; */
  
  }
  

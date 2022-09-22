@@ -22,7 +22,7 @@ const handleToggle = () => {
   return (
     <div>
         <header>
-
+        {/* LOGO */}
         <div className="logo">
           <Link to='/'><img src={Logo} alt="Logo" /></Link>
         
@@ -34,6 +34,7 @@ const handleToggle = () => {
 
         {/* <div className='close' id="close" onclick={eventClose}>  </div> */}
 
+        {/* NaVIGATION BAR */}
         <nav className='navBar'>
         <ul className={toggle ? 'menu-drop': 'menu'}>
         {/* // {toggle ? 'menu': 'deactive'} */}
