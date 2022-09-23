@@ -26,7 +26,7 @@ import SmallImage3 from '../../asset/smallImage3.png'
 import SmallImage4 from '../../asset/smallImage4.png'
 import SmallImage5 from '../../asset/smallImage5.png'
 import Footer from '../../Components/Footer/footer';
-import { useState } from 'react'
+
 // import HeroSection from '../../sections/landing/HeroSection/heroSection';
 // import { Form } from 'react-router-dom';
 // import FirstSection from '../../sections/landing/FirstSection/firstSection';
@@ -38,12 +38,14 @@ import { useState } from 'react'
 
 
 const Landing = () => {
-  const [data] = useState([
+
+  const data = [
     {id: 0, content: `Follow a hashtag growth total posts, videos and images.`, Img: cardImage1, head:`Hashtag Growth`},
     {id: 1, content: `Identify the most influential people posting with your hashtag.`, Img: cardImage2, head:`Influencers by Hashtag`},
     {id: 2, content: `See the most influential posts on hashtag you are following on.`, Img: cardImage3, head:`Most Influential Post`},
     {id: 3, content: `Visualize where people are posting using your hashtag made.`, Img: cardImage4, head:`Hashtag Location`}
-  ])
+  ]
+
   return (
     <div>
      <section className="hero-circle">
