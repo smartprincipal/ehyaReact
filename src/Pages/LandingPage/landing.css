@@ -103,6 +103,9 @@
     left: 180px;
     top: 1250px;
    }
+   .iphone{
+    display: none;
+   }
    .patners2-content{
     margin-right: 140px;
    }
@@ -486,6 +489,14 @@
  .phone1{
   left: 10px;
   width: 280px;
+  display: none;
+ }
+ .iphone{
+  display: block;
+  position: absolute;
+  left: 87px;
+  top: 1271px;
+  height: 300px;
  }
  .patners2-content{
   margin-top: -72px;

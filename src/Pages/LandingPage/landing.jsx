@@ -11,6 +11,7 @@ import Airbnb from '../../asset/airbnb.svg'
 import Uber from '../../asset/uber.svg'
 import Parabolic from '../../asset/parabolic.png'
 import Phones from '../../asset/phones.png'
+import Iphone from '../../asset/iphone12.png'
 import Bullet from '../../asset/Bullet.svg'
 import Macbook from '../../asset/Macbook.png'
 import cardImage1 from '../../asset/cardImage1.png'
@@ -110,6 +111,7 @@ const Landing = () => {
   <article className="phone">
     <img className='parabolic' src={Parabolic} alt="parabolic"/>
     <img className="phone1"  src={Phones} alt="iphone12"/>
+    <img className='iphone' src={Iphone} alt="Iphone" />
   </article>
 
   <article className="patners2-content">
