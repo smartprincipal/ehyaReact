@@ -39,8 +39,8 @@ const handleToggle = () => {
         <ul className={toggle ? 'menu-drop': 'menu'}>
         {/* // {toggle ? 'menu': 'deactive'} */}
         <li><Link to='/' className='menu-list'>Home</Link></li>
-        <li><Link to='./' className='menu-list'>Landings &#129091;</Link>
-        <ul id='sub-landing'>
+        <li><Link to='./' onclick={handleToggle} className='menu-list'>Landings &#129091;</Link>
+        <ul id='sub-landing' class={toggle ? 'dropdown' : 'menu'}>
         <li><Link to='./' className='dropdown'>Landing1</Link></li>
           <li><Link to='./' className='dropdown'>Landing2</Link></li>
           <li><Link to='./' className='dropdown'>Landing3</Link></li>

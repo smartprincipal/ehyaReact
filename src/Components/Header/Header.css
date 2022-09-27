@@ -66,9 +66,10 @@ header{
   color: gold;
   text-decoration: none;
   display: flex;
+  flex-direction: column;
   list-style-type: none;
   margin-top: 10px;
-  position: absolute;
+  /* position: absolute; */
   display: none;
  }
 
@@ -118,6 +119,7 @@ header{
   }
   .menu-list{
     font-size: 28px;
+    text-transform: uppercase;
   }
   .show-menu{
    display: block;
